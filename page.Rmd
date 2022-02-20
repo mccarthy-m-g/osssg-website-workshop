@@ -6,4 +6,4 @@ You can make as many pages as you'd like! Just create a new R Markdown file in t
 
 By default all new pages will use the `distill::distill_article` output format, however, you can change this by specifying a different type of output in the YAML header. We do this on the `index.Rmd` page to use the postcards output format.
 
-You can also create listing pages by adding `listing: ...` to the YAML of an R Markdown page. This could be used to create a `posts.Rmd` page for a blog, or `talks.Rmd` page to showcase your works. You would then place R Markdown files for new items in a `_posts` or `_talks` directory in the root of your site to have them appear on the listing page.
+You can also create listing pages for posts, talks, and so forth. See the changes I made [here](https://github.com/mccarthy-m-g/osssg-website-workshop/pull/2/commits/f8d33a9d2f0fedbef5a9e340347b78d32bd2eb17) for an example of how to add new listing pages to a distill website. Alternatively, if you're starting from scratch, you can use the `distill::create_blog()` function to create a distill blog with the correct structure set up for you.

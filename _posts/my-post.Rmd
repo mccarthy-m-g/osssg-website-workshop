@@ -1,9 +1,0 @@
----
-title: A post
-description: "An example post"
-output: distill::distill_article
----
-
-This post is an R Markdown document, so you can use it to write prose and execute code from a variety of languages (e.g., R, python, etc.). Use it for plain writing, coding tutorials, a photo gallery, or anything else you can imagine!
-
-Once you're finished the post, knit it, then it will be included in your site when you build it next.
