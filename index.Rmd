@@ -11,9 +11,57 @@ links:
   - label: Email
     url: "mailto:email@email.com"
 output:
-  postcards::jolla_blue
+  postcards::solana
 ---
- 
+
+```{css, echo=FALSE}
+/* You can customize postcards sites further using custom CSS */
+body {
+  background-color: #FAF9F0;
+  font-family: 'Times', serif;
+  color: #220D07;
+}
+
+h1 {
+  color: #d35836;
+}
+
+h2 {
+  color: #BB4625;
+}
+
+a, a:hover {
+  color: #E07A5F;
+}
+
+.btn {
+  color: #E07A5F !important;
+  border-color: #E07A5F !important;
+}
+
+.btn:hover {
+  color: #FAF9F0 !important;
+  background-color: #E07A5F !important;
+}
+```
+
+## About
+
 I am a classically trained data scientist living in the San Francisco Bay Area. 
 Currently I work on the Oculus team at Facebook. I love talking about baseball, 
 true crime podcasts, and causal inference.
+
+## Pubs
+
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+# You can also include code chunks since this is an R Markdown document. Here
+# we take advantage of this to print a list of publications in APA format.
+library(magrittr)
+library(bib2df)
+library(stevemisc)
+
+bib2df("pubs.bib") %>% 
+  print_refs(csl = "apa.csl", delete_after = FALSE) %>% 
+  cat()
+```
+
