@@ -1,0 +1,14 @@
+[
+  {
+    "path": "posts/",
+    "title": "A post",
+    "description": "An example post",
+    "author": [],
+    "date": "2022-02-19",
+    "categories": [],
+    "contents": "\r\nThis post is an R Markdown document, so you can use it to write prose and execute code from a variety of languages (e.g., R, python, etc.). Use it for plain writing, coding tutorials, a photo gallery, or anything else you can imagine!\r\nOnce you’re finished the post, knit it, then it will be included in your site when you build it next.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-02-19T20:03:53-07:00",
+    "input_file": {}
+  }
+]

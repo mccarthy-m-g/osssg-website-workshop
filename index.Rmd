@@ -19,7 +19,6 @@ site: distill::distill_website
 /* You can customize postcards sites further using custom CSS */
 body {
   background-color: #FAF9F0;
-  font-family: 'Times', serif;
   color: #220D07;
 }
 h1 {
