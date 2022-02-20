@@ -1,0 +1,13 @@
+name: "."
+title: "Tobi Burns"
+theme: poppy.css
+description: |
+  Tobi Burns
+output_dir: "_site"
+navbar:
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Another page"
+      href: page.html
+output: distill::distill_article

@@ -1,0 +1,7 @@
+---
+title: Another page
+---
+
+You can make as many pages as you'd like! Just create a new R Markdown file in the root directory and it will be rendered when you build your site. You can include it in the navbar by editing `_site.yml`.
+
+By default all new pages will use the `distill::distill_article` output format, however, you can change this by specifying a different type of output in the YAML header. We do this on the `index.Rmd` page to use the postcards output format.
